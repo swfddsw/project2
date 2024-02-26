@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ui구현</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrap">
+        <header id="head">
+            <div class="header">
+                <div class="header_in">
+                    <div class="weather"><a href="">
+                        <img src="img/weather.png" alt="">
+                        <p>21.5℃</p>
+                    </a></div>
+                    <div class="news"><a href="">
+                        <img src="img/news.png" alt="">
+                        <p>울산·전남 관광교류의 달 '관광객 유치 특별 인센티브 지원'...</p>
+                    </a></div>
+                    <div class="ulsan_logo"><a href="">
+                        <img src="img/ulsan.png" alt="">
+                    </a></div>
+                </div>
+            </div>
+            <nav class="nav">
+                <div class="logo"><a href="">
+                    <img src="img/logo.png" alt="">
+                </a></div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="">추천</a></li>
+                        <li><a href="">여행지</a></li>
+                        <li><a href="">여행정보</a></li>    
+                        <li><a href="">여행이야기</a></li>
+                    </ul>
+                </div>
+                <div class="ico">
+                    <a href=""><img src="img/search.png" alt=""></a>
+                    <a href=""><p>LANGUAGE</p></a>
+                    <a href=""><img src="img/menu.png" alt=""></a>
+                </div>
+            </nav>
+        </header>
+        <main id="main">
+            <section class="main1">
+                <div class="main_ad">
+                    <a href=""><img src="img/ad.png" alt=""></a>
+                    <p>가장 먼저 아침 해가 뜨는 곳<br><span>간절곶</span></p>
+                </div>
+                <div class="ad_bar">
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li class="bar_on">5</li>
+                    </ul>
+                    <div class="bar_imo">
+                        <a href=""><img src="img/left_black.png" alt="" class="left_imo"></a>
+                        <a href=""><img src="img/right_black.png" alt=""  class="right_imo"></a>
+                    </div>
+                </div>
+            </section>
+            <section class="main2">
+                <div class="main2_in">
+                    <h2 class="main_title">단풍과 함께 즐기는 울산관광</h2> <!-- 화질구지 이미지 바꾸기 -->
+                    <a href=""><img src="img/main2.jpg" alt=""></a>
+                    <div class="m2_text">
+                        <p><span>울산 석남사</span></p>
+                        <p>울산 가지산에 위치한 유서깊은 사찰.<br>
+                            한 때 그 아름다움이 영남 제일이라는 뜻의 '석남사'라고도 불렸으며<br>
+                            가지산의 또 다른 이름이 석안산이므로 '석안사'라고도 불렀다.</p>
+                    </div>
+                    <div class="lr">
+                       <p><a href=""><img src="img/left.png" alt=""></a></p>
+                       <p><a href=""><img src="img/right.png" alt=""></a></p>
+                    </div>
+                </div>
+            </section>
+            <section class="main3">
+                <h2>여행지</h2>
+                <div class="m3">
+                    <div class="m3_in">
+                        <ul>
+                            <li>
+                                <p class="m3_slide">자연</p>
+                                <a href=""><img src="img/travel1.png" alt=""></a>
+                                <div class="m3_text">
+                                    <a href="">
+                                        <div class="hashtag">
+                                            <p>#산</p>
+                                            <p>#경관</p>
+                                        </div>
+                                        <p class="m3_ex">간월산:<br>울산 산악인들이 즐겨 찾는 억세꽃이<br> 만발하는 신성한 산 </p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="m3_slide">문화/유적</p>
+                                <a href=""><img src="img/travel2.png" alt=""></a>
+                                <div class="m3_text">
+                                    <a href="">
+                                        <div class="hashtag">
+                                            <p>#유적</p>
+                                            <p>#유네스코</p>
+                                        </div>
+                                        <p class="m3_ex">대곡리 반구대 암각화:<br>유네스코 세계유산에 등록된 수천년전<br> 바위에 그려진 그림</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="m3_slide">체험</p>
+                                <a href=""><img src="img/travel3.png" alt=""></a>
+                                <div class= "m3_text">
+                                    <a href="">
+                                        <div class="hashtag">
+                                            <p>#체험</p>
+                                            <p>#돌고래</p>
+                                        </div>
+                                        <p class="m3_ex">고래생태체험관:<br>돌고래가 노니는 일상을 만나볼 수 있는<br> 형태의 돌고래 수족관</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <div class="m3_arrow">
+                                <a href=""><img src="img/left_arrow.png" alt="" class="l_ar"></a>
+                                <a href=""><img src="img/right_arrow.png" alt="" class="r_ar"></a>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="main4">
+                <h2>여행정보</h2>
+                <div class="m4">
+                    <div class="m4_in">
+                        <div class="m4_text">
+                            <p class="m4_link"><a href="">서비스 바로가기</a></p>
+                            <p class="m4_tra">울산을 더 편하게 여행하기위한<br><span>여행정보를 찾아보세요</span></p>
+                        </div>
+                        <div class="m4_icon">
+                            <ul>
+                                <li><a href="">
+                                    <div><img src="img/ico_taxi.png" alt=""></div>
+                                    <p>관광택시 <br>서비스 신청</p>
+                                </a></li>
+                                <li><a href="">
+                                    <div><img src="img/ico_map.png" alt=""></div>
+                                    <p>관광 <br>안내도</p>
+                                </a></li>   
+                                <li><a href="">
+                                    <div><img src="img/ico_book.png" alt=""></div>
+                                    <p>관광 가이드북<br>및 책자 신청</p>
+                                </a></li>
+                                <li><a href="">
+                                    <div><img src="img/ico_teach.png" alt=""></div>
+                                    <p>관광안내 <br>서비스</p>
+                                </a></li>
+                                <li><a href="">
+                                    <div><img src="img/ico_medical.png" alt=""></div>
+                                    <p>응급의료 <br>서비스</p>
+                                </a> </li>
+                                <li><a href="">   
+                                    <div><img src="img/ico_trans.png" alt=""></div>
+                                    <p>문화관광 <br>해설사</p>
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main5">
+                <h2>캘린더</h2>
+                <div class="m5_in">
+                    <div class="m5_t">
+                        <p><a href="">전체</a></p>
+                        <p><a href="">축제 및 행사</a></p>
+                        <p><a href="">전시 및 공연</a></p>
+                    </div>
+                    <div class="m5_b">
+                        <a href=""><img src="img/calendar.png" alt=""></a>
+                        <div class="m5_bb">
+                            <div class="m5_bbb">
+                                <p class="date">2023.10.27<br>(금)</p>
+                                <ul>
+                                    <li><a href="">
+                                        <div class="m5_txt">
+                                            <p>· 울산 미술품 전시 기간</p>
+                                            <p>2023-10-13~2023-11-12</p>
+                                        </div>
+                                    </a></li>
+                                    <li><a href="">
+                                        <div class="m5_txt">
+                                            <p>· 울산 고래 체험</p>
+                                            <p>2023-10-10~2023-11-09</p>
+                                        </div>
+                                    </a></li>
+                                    <li><a href="">
+                                        <div class="m5_txt">
+                                            <p>· 울산 간월재</p>
+                                            <p>2023-10-08~2023-10-29</p>
+                                        </div>
+                                    </a></li>
+                                    <li><a href="">
+                                        <div class="m5_txt">
+                                            <p>· 울산 공업 축제</p>
+                                            <p>2023-10-01~2023-11-15</p>
+                                        </div>
+                                    </a></li>
+                                    <li><a href="">
+                                        <div class="m5_txt">
+                                            <p>· 2023년 울산 태화강 불꽃 축제</p>
+                                            <p>2023-09-15~2023-10-12</p>
+                                        </div>
+                                    </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main6">
+                <h2>울산 SNS</h2>
+                <div class="m6">
+                    <div class="m6_in">
+                        <ul>
+                            <li><a href="">
+                                <img class="m6_img" src="img/sns1.png" alt="">
+                                <div class="m6_text">
+                                    <p class="m6_txt1">2023 울산 공업축제</p>
+                                    <p class="m6_txt2">2023.04.13 ~ 2023.10.28</p>
+                                </div>
+                            </a></li>
+                            <li><a href="">
+                                <img class="m6_img" src="img/sns2.png" alt="">
+                                <div class="m6_text">
+                                    <p class="m6_txt1">울산 태화강 봄꽃 축제</p>
+                                    <p class="m6_txt2">2023.10.13 ~ 2023.10.28</p>
+                                </div>
+                            </a></li>
+                            <li><a href="">
+                                <img class="m6_img" src="img/sns3.png" alt="">
+                                <div class="m6_text">
+                                    <p class="m6_txt1">울산 간월재</p>
+                                    <p class="m6_txt2">2023.08.13 ~ 2023.11.23</p>
+                                </div>
+                            </a></li>
+                            <li><a href="">
+                                <img class="m6_img" src="img/sns4.png" alt="">
+                                <div class="m6_text">
+                                    <p class="m6_txt1">울산 119 안전문화축제</p>
+                                    <p class="m6_txt2">2023.10.02 ~ 2023.10.03</p>
+                                </div>
+                            </a></li>
+                            <li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="foot">
+            <div class="foot1">
+                <div class="ft1_in">
+                    <ul>
+                        <li><a href=""><p>울산시 여행 및 홍보</p></a></li>
+                        <li><a href=""><p>구·군 관광누리집</p></a></li>
+                        <li><a href=""><p>울산시 문화관광누리집</p></a></li>
+                        <li class="on"><a href=""><p>관광분야 누리집</p></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="foot2">
+                <div class="ft2_in">
+                    <img src="img/logo_black.png" alt="">
+                    <div class="ft_text">
+                        <ul>
+                            <li class="on1"><a href="">개인정보 처리방침 </a></li>
+                            <li><a href="">저작권 정책</a></li>
+                            <li><a href="">이용안내</a></li>
+                            <li class="off1"><a href="">웹접근성품질인증</a></li>
+                        </ul>
+                        <p>(44675) 울산광역시 남구 중앙로 201 (신정동)<br>
+                            Copyright © Ulsan Metropolitan City. All rights reserved.</p>
+                        <p>본 사이트의 모든 내용들은 울산광역시의 허락없이 무단복제가 불가하며, 게시된 전자우편주소는<br>
+                            개인정보보호법 및 정보통신망법에 따라 무단 수집을 거부합니다</p>
+                    </div>
+                    <div class="telephone">
+                        <p>대표전화:<span><a href=""> 052-120</a></span></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
